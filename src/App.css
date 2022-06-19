@@ -24,12 +24,18 @@ body {
 
 .App button {
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 4px;
   font-size: 1.1rem;
   background-color: #17202A;
+  text-transform: uppercase;
   color: #fcfcfc ;
-  box-shadow: 2px 2px 8px #c9cacc;
+  border: 2px solid #20e2d7;
   border: none;
+}
+
+.App button:hover{
+  background-color: #D6DBDF;
+  color: #17202A;
 }
 
 .description {
