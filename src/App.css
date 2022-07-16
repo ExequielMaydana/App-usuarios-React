@@ -73,11 +73,15 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 .form button {
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .form-item {
@@ -182,6 +186,10 @@ p {
 .fa-trash-can:hover {
   color: #f10b0b;
   background-color: #fffdfd;
+}
+
+@media (max-width: 720px){
+
 }
 
 @media (max-width: 480px){
